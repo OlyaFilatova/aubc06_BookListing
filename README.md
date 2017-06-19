@@ -12,7 +12,7 @@ The user can enter a word or phrase to serve as a search query.
 
 The app fetches book data related to the query via an HTTP request from the [Google Books API](https://developers.google.com/books/docs/overview).
 
-![When you open this application it looks like this.](docs/screenshot_empty_search.png)
+![When you open this application it looks like this.](docs/Screenshot_empty_search.png)
 
 App contains a ListView which becomes populated with list items.
 
@@ -22,11 +22,11 @@ List items display authors and title information.
 
 When there is no data to display, the app shows a default TextView that informs the user that na data was found.
 
-![When search got no result.](docs/screenshot_no_books.png)
+![When search got no result.](docs/Screenshot_no_books_found.png)
 
 or how to populate the list
 
-![If User tries to search with empty input.](docs/screenshot_empty_search.png)
+![If User tries to search with empty input.](docs/Screenshot_empty_search.png)
 
 The app checks whether the device is connected to the internet and responds appropriately.
 
